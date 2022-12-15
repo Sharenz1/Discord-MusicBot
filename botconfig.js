@@ -28,15 +28,35 @@ module.exports = {
 
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
-  Lavalink: {
-    id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "", //- The host name or IP of the lavalink server.
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "", //- The password of the lavalink server.
-    secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
-    retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
-    retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-  },
+  Lavalink: 
+{
+       host : "node1.kartadharta.xyz",
+       port : 443,
+       password : "kdlavalink",
+       id : "ErrorDoc404 Link",
+       secure : true,
+       retryAmount : 200,
+       retryDelay : 20
+      },
+      {
+        host: "krn.2d.gay",
+        port: 443,
+        password: "AWP)JQ$Gv9}dm.u",
+        id: "melike2d Link",
+        secure: true,
+        retryAmount : 200,
+        retryDelay : 20
+      }
+    ],
+//{
+   // id: "Main", //- Used for indentifier. You can set this to whatever you want.
+   // host: "", //- The host name or IP of the lavalink server.
+    //port: 80, // The port that lavalink is listening to. This must be a number!
+   // pass: "", //- The password of the lavalink server.
+   // secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
+   // retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
+  //  retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
+  //},
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
     ClientID: process.env.Spotify_ClientID || "", // Spotify Client ID
