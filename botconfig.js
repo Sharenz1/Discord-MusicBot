@@ -38,15 +38,15 @@ module.exports = {
        retryAmount : 200,
        retryDelay : 20
       },
-      {
-        host: "krn.2d.gay",
-        port: 443,
-        password: "AWP)JQ$Gv9}dm.u",
-        id: "melike2d Link",
-        secure: true,
-        retryAmount : 200,
-        retryDelay : 20
-      }
+      //{
+     //   host: "krn.2d.gay",
+    //    port: 443,
+   //     password: "AWP)JQ$Gv9}dm.u",
+   //     id: "melike2d Link",
+   //     secure: true,
+    //    retryAmount : 200,
+     //   retryDelay : 20
+    //  }
     ],
 //{
    // id: "Main", //- Used for indentifier. You can set this to whatever you want.
