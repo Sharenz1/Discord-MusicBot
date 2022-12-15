@@ -5,7 +5,7 @@ module.exports = {
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", // Support Server Link
   Token: process.env.Token || "", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", // Discord Client ID
+  ClientID: process.env.Discord_ClientID || "1052601391601950720", // Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
@@ -17,7 +17,7 @@ module.exports = {
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", // URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", // Color of most embeds | Custom Hex value are supported. I.e: "#36393F"
   Permissions: 2205281600, // Bot Inviting Permissions
-  Website: process.env.Website || "https://example.com", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
+  Website: process.env.Website || "https://musica.dashboard.github.io", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
   // If you get invalid oauth, make sure on the discord developer page you set the oauth url to something like: https://example.com/api/callback.
 
   Presence: {
@@ -59,7 +59,7 @@ module.exports = {
   //},
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", // Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", // Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "731ac5bf0603411f80ac446f5c02e290", // Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "cd16a34c385b4fa5915abd596fd4e480", // Spotify Client Secret
   },
 };
