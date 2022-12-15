@@ -30,13 +30,13 @@ module.exports = {
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: [
 {
-       host : "node1.kartadharta.xyz",
-       port : 443,
-       password : "kdlavalink",
-       id : "ErrorDoc404 Link",
-       secure : true,
-       retryAmount : 200,
-       retryDelay : 20
+       host: "node1.kartadharta.xyz",
+       port: 443,
+       password: "kdlavalink",
+       id: "ErrorDoc404 Link",
+       secure: true,
+       retryAmount: 200,
+       retryDelay: 20
       },
       {
         host: "krn.2d.gay",
