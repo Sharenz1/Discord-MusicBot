@@ -28,7 +28,7 @@ module.exports = {
 
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
-  Lavalink: 
+  Lavalink: [
 {
        host : "node1.kartadharta.xyz",
        port : 443,
@@ -38,15 +38,15 @@ module.exports = {
        retryAmount : 200,
        retryDelay : 20
       },
-      //{
-     //   host: "krn.2d.gay",
-    //    port: 443,
-   //     password: "AWP)JQ$Gv9}dm.u",
-   //     id: "melike2d Link",
-   //     secure: true,
-    //    retryAmount : 200,
-     //   retryDelay : 20
-    //  }
+      {
+        host: "krn.2d.gay",
+        port: 443,
+        password: "AWP)JQ$Gv9}dm.u",
+        id: "melike2d Link",
+        secure: true,
+        retryAmount : 200,
+        retryDelay : 20
+      }
     ],
 //{
    // id: "Main", //- Used for indentifier. You can set this to whatever you want.
